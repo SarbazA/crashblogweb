@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>{%block title%}{%endblock%} home </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+
+
+<div class="w3-bar w3-orange">
+  <a href="/" class="w3-bar-item w3-button">Home</a>
+  <a href="about/" class="w3-bar-item w3-button">About</a>
+  <form method="get" action="search/"> 
+  
+  <input placeholder="search post .... " name="query" type="text " style="padding-top:10px;">
+  </form>
+  
+  
+  
+</div>
+
+{%block content%}
+{%endblock%}
+
+
+
+<footer>
+
+    <div class="w3-panel w3-blue">
+        <h6 class="w3-text-orange w3-center" style="text-shadow:1px 1px 0 #444">
+        <b> copy right C: create by wintersoldier academy</b></h6>
+      </div>
+</footer>
+
+</body>
+</html>
